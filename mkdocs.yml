@@ -1,0 +1,5 @@
+site_name: portfolio-demo-devops-02
+nav:
+  - Accueil: index.md
+plugins:
+  - techdocs-core
