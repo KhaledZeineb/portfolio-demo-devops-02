@@ -3,7 +3,7 @@ services:
     image: zeinebkhaled/portfolio-demo-devops-02:${IMAGE_TAG:-latest}
     container_name: portfolio-demo-devops-02
     ports:
-      - "3000:3000"
+      - "3001:3000"
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "wget -qO- http://localhost:3000/api/health || exit 1"]
